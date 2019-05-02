@@ -1,0 +1,19 @@
+create table Student
+(
+studentID varchar2(50) NOT NULL,
+username varchar2(50) NOT NULL,
+address varchar2(50) NOT NULL,
+zipcode varchar2(50) NOT NULL,
+city varchar2(50) NOT NULL,
+state varchar2(50) NOT NULL,
+phone varchar2(50),
+email varchar2(50) NOT NULL,
+gradMonth varchar2(50),
+gradYear varchar2(50),
+comments varchar2(50),
+likes varchar2(100) NOT NULL,
+interest varchar2(50) NOT NULL,
+recommend varchar2(50),
+surveyDate varchar(50) NOT NULL,
+CONSTRAINT studentID_pk PRIMARY KEY (studentID)
+);

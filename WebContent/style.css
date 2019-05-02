@@ -1,0 +1,35 @@
+h1 
+{
+	text-align: center;
+	color: blue;
+	text-shadow: 2px 2px #B0C4DE;
+	border-style: solid;
+	border-color: blue;
+	border-width: 5px
+}
+
+a.logo
+{
+	position: fixed;
+	right: 180px;
+	bottom: 125px;
+	height: 5px;
+	width: 10px;
+}
+
+body
+{
+	background-color: #F9E79F;
+}
+
+div.author
+{
+	position: fixed;
+	right: 5px;
+	top: 5px;
+}
+
+.heading_link
+{
+	color: #4B0082;
+}
